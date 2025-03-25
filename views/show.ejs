@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In Detail</title>
+    <link rel ="stylesheet" href="/style.css" />
+</head>
+<body>
+    
+    <h1>This is <%= post.username %></h1>
+<p><%= post.content %></p>
+<% if (post.img) { %>
+    <img src="<%= post.img %>" alt="<%= post.username %>'s image" style="width: 300px; height: auto; border-radius: 10px;">
+<% } else { %>
+    <p>No image available</p>
+<% } %>
+<p><%= post.detail %></p>
+<a href="/posts">Back to Posts</a>
+
+</body>
+</html>

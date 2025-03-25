@@ -1,0 +1,33 @@
+h1 {
+    color: #581313;
+    font-weight: 900;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-style: italic;
+}
+
+.post {
+    background-color: rgb(171, 183, 247);
+
+}
+
+.user {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content {
+    font-style: italic;
+}
+
+body {
+    background: linear-gradient(135deg, 
+        #a0d2eb, /* Ice Cold */
+        #e5eaf5, /* Freeze Purple */
+        #d0bdf4, /* Medium Purple */
+        #8458B3, /* Purple Pain */
+        #a28089  /* Heavy Purple */
+    );
+    height: 100vh; /* Ensures full screen coverage */
+    margin: 0;
+}
